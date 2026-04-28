@@ -8,11 +8,13 @@
     <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png" type="image/x-icon">
 </head>
 <body>
+    <div class="principal">
     <h1>Gerenciador de livros</h1>
     <button onclick="livroController.adicionarLivro()">Adicionar Livro</button>
     <button onclick="livroController.listarLivro()">Listar Livros</button>
     <button onclick="livroController.removerLivro()">Remover Livros</button>
     <ul id="listaLivros"></ul>
+    </div>
     
     <script src="../controllers/livroController.js"></script>
     <script src="../services/livroService.js"></script>
